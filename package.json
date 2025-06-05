@@ -1,0 +1,30 @@
+{
+  "name": "linkedin-engagement-scrapper",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "LinkedIn Profile Engagement Analyzer (Reasonyx Feature) using Apify and TypeScript",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linkedin",
+    "scraper",
+    "engagement",
+    "analysis",
+    "reasonyx"
+  ],
+  "author": "Samir Khanal",
+  "license": "ISC",
+  "dependencies": {
+    "apify-client": "^2.12.5",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.49"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
